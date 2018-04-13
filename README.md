@@ -1,6 +1,6 @@
 # HZShapeViewExample
 
-#Demo地址
+#源文件定义地址
 https://github.com/MyHZ/HZShapeView
 
 #CocoaPods
