@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D05E25C5F3D5F9F4459455FCCD74DF4 /* HZShapeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B5E47B5D508F825112219C6BA77DA9 /* HZShapeView-dummy.m */; };
+		229DCCFB12E7DD9E70EBC8B5A120324E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		55D8BCFD529C0D783FA36C4685B900C5 /* HZShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2735C7A6557DEF54707B18EDE7E30 /* HZShapeView.m */; };
+		AFF6ABDFF803659A3EDA89366E0BAEDD /* HZShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 677696C17ACAC6B9CB753F15D2192A34 /* HZShapeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBC8823EF0AF6F0E82A5120C1D425D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E264FD38F0ED2C27F6592E7CFF9D909A /* Pods-HZShapeViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7E21BA89CE48B9FD098C64535EDEB /* Pods-HZShapeViewExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2433F0878852A5399FED4E1CB4CEA0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1C399E8A1C902D3B403D56C2DDDF6F;
+			remoteInfo = HZShapeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA7611EDAB9CD0E32813C50E130DE3E /* HZShapeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZShapeView-prefix.pch"; sourceTree = "<group>"; };
+		12B5E47B5D508F825112219C6BA77DA9 /* HZShapeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZShapeView-dummy.m"; sourceTree = "<group>"; };
+		1533173C3A87B6BB8ABA370D1AEFB687 /* Pods-HZShapeViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZShapeViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5E52C833CB9E6B15D76F7A098FF06D6E /* Pods-HZShapeViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZShapeViewExample-resources.sh"; sourceTree = "<group>"; };
+		64E2735C7A6557DEF54707B18EDE7E30 /* HZShapeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HZShapeView.m; path = HZShapeView/HZShapeView.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677696C17ACAC6B9CB753F15D2192A34 /* HZShapeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZShapeView.h; path = HZShapeView/HZShapeView.h; sourceTree = "<group>"; };
+		7C791E19CA1E244B434D8608AE65017B /* Pods-HZShapeViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZShapeViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		8894486B9358ACC48938D54D1E256799 /* HZShapeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZShapeView.xcconfig; sourceTree = "<group>"; };
+		890FDBB5217EAB91BD3D4D2F51D36378 /* Pods-HZShapeViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZShapeViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C14DDFEAAB86197B7AAC89A4EACD6B81 /* Pods-HZShapeViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZShapeViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D015BB4FB803D8119D91FD79A3B25646 /* libPods-HZShapeViewExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HZShapeViewExample.a"; path = "libPods-HZShapeViewExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1C8CBDDE4946DD7829175DF49870EF /* Pods-HZShapeViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZShapeViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8D7E21BA89CE48B9FD098C64535EDEB /* Pods-HZShapeViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZShapeViewExample-dummy.m"; sourceTree = "<group>"; };
+		F5821BFC0D3910DB4CC0D92301005058 /* libHZShapeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHZShapeView.a; path = libHZShapeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F21CBDCC6262760DCAA6C94B500C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8823EF0AF6F0E82A5120C1D425D3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93CDFE6920A1743BB88CE7867952772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229DCCFB12E7DD9E70EBC8B5A120324E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD8EE18E56B3E16F7F05EEF0127DE32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD69925381CDE37857C32FA9678EECD3 /* HZShapeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2743FE02C7C4B9C772F1D47322D18A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5821BFC0D3910DB4CC0D92301005058 /* libHZShapeView.a */,
+				D015BB4FB803D8119D91FD79A3B25646 /* libPods-HZShapeViewExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1CD8EE18E56B3E16F7F05EEF0127DE32 /* Pods */,
+				2743FE02C7C4B9C772F1D47322D18A5C /* Products */,
+				ADDAE2D681D9A685A4E2625D80ED1E4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADDAE2D681D9A685A4E2625D80ED1E4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49E88F3431105455E1459943924D488 /* Pods-HZShapeViewExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD69925381CDE37857C32FA9678EECD3 /* HZShapeView */ = {
+			isa = PBXGroup;
+			children = (
+				677696C17ACAC6B9CB753F15D2192A34 /* HZShapeView.h */,
+				64E2735C7A6557DEF54707B18EDE7E30 /* HZShapeView.m */,
+				D2698638E3127DAF248726CE239F78C7 /* Support Files */,
+			);
+			name = HZShapeView;
+			path = HZShapeView;
+			sourceTree = "<group>";
+		};
+		D2698638E3127DAF248726CE239F78C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8894486B9358ACC48938D54D1E256799 /* HZShapeView.xcconfig */,
+				12B5E47B5D508F825112219C6BA77DA9 /* HZShapeView-dummy.m */,
+				0EA7611EDAB9CD0E32813C50E130DE3E /* HZShapeView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HZShapeView";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F49E88F3431105455E1459943924D488 /* Pods-HZShapeViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				C14DDFEAAB86197B7AAC89A4EACD6B81 /* Pods-HZShapeViewExample-acknowledgements.markdown */,
+				DE1C8CBDDE4946DD7829175DF49870EF /* Pods-HZShapeViewExample-acknowledgements.plist */,
+				E8D7E21BA89CE48B9FD098C64535EDEB /* Pods-HZShapeViewExample-dummy.m */,
+				890FDBB5217EAB91BD3D4D2F51D36378 /* Pods-HZShapeViewExample-frameworks.sh */,
+				5E52C833CB9E6B15D76F7A098FF06D6E /* Pods-HZShapeViewExample-resources.sh */,
+				1533173C3A87B6BB8ABA370D1AEFB687 /* Pods-HZShapeViewExample.debug.xcconfig */,
+				7C791E19CA1E244B434D8608AE65017B /* Pods-HZShapeViewExample.release.xcconfig */,
+			);
+			name = "Pods-HZShapeViewExample";
+			path = "Target Support Files/Pods-HZShapeViewExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C0BCE7E688AC18FF219AA30D43EFDE2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF6ABDFF803659A3EDA89366E0BAEDD /* HZShapeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A08A101BED9189EA7F9CDBD07640412 /* Pods-HZShapeViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A49A700B32A8930EAD49F88EB4B303 /* Build configuration list for PBXNativeTarget "Pods-HZShapeViewExample" */;
+			buildPhases = (
+				428B79610DF4BD7AB79540172D62F418 /* Sources */,
+				81F21CBDCC6262760DCAA6C94B500C46 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1E19027A53CC466A6323D32EB324E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-HZShapeViewExample";
+			productName = "Pods-HZShapeViewExample";
+			productReference = D015BB4FB803D8119D91FD79A3B25646 /* libPods-HZShapeViewExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC1C399E8A1C902D3B403D56C2DDDF6F /* HZShapeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEEC3E95CD8569282348677264B8476 /* Build configuration list for PBXNativeTarget "HZShapeView" */;
+			buildPhases = (
+				88A9F8B39C114738928C6172DBC850A8 /* Sources */,
+				B93CDFE6920A1743BB88CE7867952772 /* Frameworks */,
+				C0BCE7E688AC18FF219AA30D43EFDE2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZShapeView;
+			productName = HZShapeView;
+			productReference = F5821BFC0D3910DB4CC0D92301005058 /* libHZShapeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2743FE02C7C4B9C772F1D47322D18A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1C399E8A1C902D3B403D56C2DDDF6F /* HZShapeView */,
+				7A08A101BED9189EA7F9CDBD07640412 /* Pods-HZShapeViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428B79610DF4BD7AB79540172D62F418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E264FD38F0ED2C27F6592E7CFF9D909A /* Pods-HZShapeViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A9F8B39C114738928C6172DBC850A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D05E25C5F3D5F9F4459455FCCD74DF4 /* HZShapeView-dummy.m in Sources */,
+				55D8BCFD529C0D783FA36C4685B900C5 /* HZShapeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1E19027A53CC466A6323D32EB324E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZShapeView;
+			target = AC1C399E8A1C902D3B403D56C2DDDF6F /* HZShapeView */;
+			targetProxy = 2433F0878852A5399FED4E1CB4CEA0BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0730988EE731EC54749A763CC5C237CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8894486B9358ACC48938D54D1E256799 /* HZShapeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HZShapeView/HZShapeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HZShapeView;
+				PRODUCT_NAME = HZShapeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7A205BD99C58FA693B352217608B6D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1533173C3A87B6BB8ABA370D1AEFB687 /* Pods-HZShapeViewExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEE975849195E7B07E825A26D67C87A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C791E19CA1E244B434D8608AE65017B /* Pods-HZShapeViewExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAE107825AD079F707C64CA33377F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8894486B9358ACC48938D54D1E256799 /* HZShapeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HZShapeView/HZShapeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HZShapeView;
+				PRODUCT_NAME = HZShapeView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A49A700B32A8930EAD49F88EB4B303 /* Build configuration list for PBXNativeTarget "Pods-HZShapeViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A205BD99C58FA693B352217608B6D45 /* Debug */,
+				AEE975849195E7B07E825A26D67C87A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEEC3E95CD8569282348677264B8476 /* Build configuration list for PBXNativeTarget "HZShapeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAE107825AD079F707C64CA33377F38 /* Debug */,
+				0730988EE731EC54749A763CC5C237CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

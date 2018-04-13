@@ -1,0 +1,16 @@
+PODS:
+  - HZShapeView (1.0.0)
+
+DEPENDENCIES:
+  - HZShapeView (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HZShapeView
+
+SPEC CHECKSUMS:
+  HZShapeView: 1ba3fda041942ebfa1bcea3e2e8be74a37b57667
+
+PODFILE CHECKSUM: e2d2f4a03d73445a01971a4d9795125d18b061db
+
+COCOAPODS: 1.5.0
